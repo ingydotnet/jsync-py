@@ -1,40 +1,51 @@
-thingy - Blah blah blah
------------------------
+JSYNC - Full Data Serialization in JSON
+---------------------------------------
 
 Installation
 ------------
 
 Use::
 
-    > sudo pip install thingy
+    > sudo pip install jsync
 
 or::
 
-    > sudo easy install thingy
+    > sudo easy install jsync
 
 or::
 
-    > git clone git://github.com/you/thingy-py.git
+    > git clone git://github.com/you/jsync-py.git
     > cd reparse-py
     > sudo make install
 
 Usage
 -----
 
+Python code::
+
+    import jsync
+
+    string = jsync.dump(object)
+    object = jsync.load(string)
+
 Development Status
 ------------------
+
+ALPHA
 
 Community
 ---------
 
+#jsync on irc.freenode.net
+
 Authors
 -------
 
-* You Yourself <you@example.com>
+* Ingy dot Net <ingy@ingy.net>
 
 Copyright
 ---------
 
-thingy is Copyright (c) 2010, You Yourself
+jsync is Copyright (c) 2010, Ingy dot Net
 
-thingy is licensed under the New BSD License. See the LICENSE file.
+jsync is licensed under the New BSD License. See the LICENSE file.

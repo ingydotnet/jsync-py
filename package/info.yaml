@@ -14,3 +14,4 @@ url: http://jsync.org
 install_requires:
 - json
 - testml
+- pyyaml
