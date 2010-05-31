@@ -1,0 +1,46 @@
+%TestML 1.0
+
+*jsync.parse('TestParser') == *json;
+
+=== A simple mapping
+--- jsync: {"a": "x", "b": 42}
+--- data
+{
+    "VERSION": "1.0",
+    "TAG": {
+        "!!": "tag:jsync.org,2010:"
+    },
+    "kind": "map",
+    "tag": "!!map",
+    "anchor": "",
+    "pairs": [
+        [
+            {
+                "kind": "scalar",
+                "tag": "!!str",
+                "anchor": "",
+                "string": "a"
+            },
+            {
+                "kind": "scalar",
+                "tag": "!!str",
+                "anchor": "",
+                "string": "x"
+            }
+        ],
+        [
+            {
+                "kind": "scalar",
+                "tag": "!!str",
+                "anchor": "",
+                "string": "b"
+            },
+            {
+                "kind": "scalar",
+                "tag": "!!num",
+                "anchor": "",
+                "string": "42"
+            }
+        ]
+    ]
+}
